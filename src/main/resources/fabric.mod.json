@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "thisisautoreplymod",
+	"version": "${version}",
+	"name": "autoreply",
+	"description": "im great at making mods istg",
+	"authors": [
+		"X45k"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/thisisautoreplymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.x45k.thisisautoreplymod.Autoreply"
+		],
+		"client": [
+			"net.x45k.thisisautoreplymod.AutoreplyClient"
+		],
+		"fabric-datagen": [
+			"net.x45k.thisisautoreplymod.AutoreplyDataGenerator"
+		]
+	},
+	"mixins": [
+		"thisisautoreplymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
