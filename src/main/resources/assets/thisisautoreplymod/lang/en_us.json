@@ -1,3 +1,6 @@
 {
-  "item.thisisautoreplymod.ruby": "Ruby"
+  "item.thisisautoreplymod.ruby": "Ruby",
+  "item.thisisautoreplymod.raw_ruby": "Raw Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }
