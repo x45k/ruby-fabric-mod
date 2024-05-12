@@ -1,6 +1,7 @@
 package net.x45k.thisisautoreplymod;
 
 import net.fabricmc.api.ModInitializer;
+import net.x45k.thisisautoreplymod.block.ModBlocks;
 import net.x45k.thisisautoreplymod.item.ModItemGroups;
 import net.x45k.thisisautoreplymod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,5 +15,6 @@ public class Autoreply implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

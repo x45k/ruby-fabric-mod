@@ -2,5 +2,8 @@
   "item.thisisautoreplymod.ruby": "Ruby",
   "item.thisisautoreplymod.raw_ruby": "Raw Ruby",
 
+  "block.thisisautoreplymod.ruby_block": "Block of Ruby",
+  "block.thisisautoreplymod.raw_ruby_block": "Block of Raw Ruby",
+
   "itemgroup.ruby": "Ruby Group"
 }

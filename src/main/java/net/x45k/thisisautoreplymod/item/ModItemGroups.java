@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.x45k.thisisautoreplymod.Autoreply;
+import net.x45k.thisisautoreplymod.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,6 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     })).build());
 
